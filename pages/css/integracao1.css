@@ -1,0 +1,15 @@
+//É UM CSS GLOBAL, É PRECISO IMPORTAR NO _APP.JS
+//FUNCIONA EM TODAS AS PAGINAS
+
+.integracao .vermelho {
+  color: #F30;
+}
+
+.integracao .azul {
+  color: #03F;
+}
+
+.integracao .branco {
+  background-color: #444;
+  color: #FFF;
+}
