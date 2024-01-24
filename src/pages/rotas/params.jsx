@@ -1,4 +1,5 @@
 import { useRouter } from 'next/router'
+import Link from 'next/link'
 
 //outra forma de enviar parametros, caso nao queira utilizar os [] nos arquivos
 //pode ser passado o parametro na url
@@ -15,6 +16,9 @@ export default function Params() {
       <h1>Rotas params</h1>
       <h3>id: {id}</h3>
       <h3>nome: {nome}</h3>
+      <Link href='/rotas'>
+        <button>Voltar</button>
+      </Link>
     </div>
   )
 }

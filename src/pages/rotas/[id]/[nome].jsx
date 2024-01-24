@@ -3,6 +3,7 @@
 // e temos o nome do arquivo entre [] que possibilita resgatar o proximo parametro conforme url
 //EX: http://localhost:3000/rotas/33/giovanni
 import { useRouter } from 'next/router'
+import Link from 'next/link'
 
 export default function Buscar() {
   //dessa forma podemos acessar a informacao que foi enviada via url
@@ -15,6 +16,9 @@ export default function Buscar() {
     <div>
       <h1>Rotas / Id / Buscar!</h1>
       <h2>Rotas / {id} / {nome}</h2>
+      <Link href='/rotas'>
+        <button>Voltar</button>
+      </Link>
     </div>
   )
 }
