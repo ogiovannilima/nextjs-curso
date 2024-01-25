@@ -16,7 +16,7 @@ export default function Buscar() {
       <h1>Rotas / Id / Buscar!</h1>
       <h2>Rotas / {id} / Buscar!</h2>
 
-      <Link href='/rotas'>
+      <Link href='/rotas' passHref>
         <button>Voltar</button>
       </Link>
     </div>

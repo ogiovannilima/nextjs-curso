@@ -28,19 +28,19 @@ export default function Rotas() {
       <ul>
 
         <li>
-          <Link href='/rotas/333/Olivia'>
+          <Link href='/rotas/333/Olivia' passHref>
             Buscar nome
           </Link>
         </li>
 
         <li>
-          <Link href='/rotas/333/buscar'>
+          <Link href='/rotas/333/buscar'passHref >
             Buscar
           </Link>
         </li>
 
         <li>
-          <Link href='/rotas/params?id=13&nome=Lola'>
+          <Link href='/rotas/params?id=13&nome=Lola' passHref>
             Params
           </Link>
         </li>
